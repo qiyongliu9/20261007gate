@@ -70,6 +70,6 @@ jobs:
         uses: actions/deploy-pages@v4
 
       - name: Show site URL
-        run:
+        run: |
           echo "deploy outcome: ${{ steps.deployment.outcome }}"
           echo "site: https://qiyongliu9.github.io/20261007gate/"
